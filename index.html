@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akoragye Charity - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Placeholder for icons if needed, or remove if not using -->
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo">Charity.</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Akoragye Charity</span></h1>
+        <p class="subtitle">BSIT Student | Web & Mobile Developer</p>
+        <p class="description">Year 1, Semester 2 Student exploring the world of technology.</p>
+        <a href="#projects" class="btn primary-btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <!-- Using a placeholder if image is missing, or the actual image if it exists -->
+        <img src="Image/AC.jpeg" alt="Akoragye Charity"
+          onerror="this.src='https://via.placeholder.com/400x400.png?text=Profile+Pic'">
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a Bachelor of Science in Information Technology (BSIT) student specializing in Web and Mobile
+            Application Development.
+            I am currently building a strong foundation in computer systems, programming, and web technologies such as
+            HTML, CSS, JavaScript, and GitHub.
+          </p>
+          <p>
+            I am interested in web development, mobile application development, and learning new technologies that help
+            solve real-world problems.
+            I enjoy creating simple, user-friendly applications and improving my skills through practice, coursework,
+            and personal projects.
+            My goal is to grow as a professional IT developer and contribute positively to the technology industry.
+          </p>
+        </div>
+        <div class="about-skills">
+          <h3>My Skills</h3>
+          <div class="skills-grid">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Web Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Student Registration System</h3>
+            <p>A simple web-based system created using HTML and CSS that allows users to enter and view student
+              information. This project helped me understand basic web page structure, form design, and styling.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Simple Calculator</h3>
+            <p>A basic calculator developed using HTML, CSS, and JavaScript. It performs simple arithmetic operations
+              such as addition, subtraction, multiplication, and division. This project improved my understanding of
+              JavaScript logic and user interaction.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">Feel free to reach out for collaborations or just a friendly hello!</p>
+      <div class="contact-links">
+        <a href="mailto:charityakoragye63@gmail.com" class="contact-card">
+          <span class="icon">✉️</span>
+          <span>charityakoragye63@gmail.com</span>
+        </a>
+        <a href="https://github.com/charityakoragye63-hash/-portfolio.git" target="_blank" class="contact-card">
+          <span class="icon">🐙</span>
+          <span>github.com/charityakoragye63-hash/-portfolio.git</span>
+        </a>
+        <!-- Added LinkedIn Placeholder as per assignment suggestion -->
+        <!-- <a href="#" class="contact-card">
+            <span class="icon">🔗</span>
+            <span>LinkedIn</span>
+        </a> -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Akoragye Charity. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
